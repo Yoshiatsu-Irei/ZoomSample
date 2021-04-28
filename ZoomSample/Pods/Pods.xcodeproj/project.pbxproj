@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftGen;
+		};
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+		B9CFD89916A72E9A429292FCAAAC8955 /* ZoomSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B7091ED8E6375EC06A1821403EF8EEC /* Build configuration list for PBXAggregateTarget "ZoomSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ZoomSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5B2D892C9D5D2B03A2FE022EDCB13DB7 /* Pods-ZoomSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D89D9C81CD5749A331CFE16B4151E /* Pods-ZoomSample-dummy.m */; };
+		77D73F51454C1305B3109AB9D51D3999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7CCAC083E900762AB5B3A8F8E586A1AD /* Pods-ZoomSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7748232905B0EF9004C4C245617FBD04 /* Pods-ZoomSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5353C4207D4386573C6D0B8D170E7254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		906E9CC00AF8B4F8362BD1E0176A064F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		936C60A2B9BBA1B603E698EA54B666ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9CFD89916A72E9A429292FCAAAC8955;
+			remoteInfo = ZoomSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080ECD58800DDB1C0FAA02264F812DF3 /* MobileRTCPremeetingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCPremeetingService.h; path = MobileRTC.framework/Headers/MobileRTCPremeetingService.h; sourceTree = "<group>"; };
+		0DCBBD22371A2B7470F5B75848D05D73 /* MobileRTCVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCVideoView.h; path = MobileRTC.framework/Headers/MobileRTCVideoView.h; sourceTree = "<group>"; };
+		1841C56414B9657FA9A378D45E33BD00 /* MobileRTCDirectShareService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCDirectShareService.h; path = MobileRTC.framework/Headers/MobileRTCDirectShareService.h; sourceTree = "<group>"; };
+		1A2EEB6C6EA00854DDE483EB15B55453 /* MobileRTCBORole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCBORole.h; path = MobileRTC.framework/Headers/MobileRTCBORole.h; sourceTree = "<group>"; };
+		1B45FF9D0DDB6C2D1EA0033BB7C224FE /* MobileRTCMeetingService+Interpretation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+Interpretation.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+Interpretation.h"; sourceTree = "<group>"; };
+		1F1240C5D671C9D994EDB3AC4B80091D /* MobileRTCRoomDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCRoomDevice.h; path = MobileRTC.framework/Headers/MobileRTCRoomDevice.h; sourceTree = "<group>"; };
+		27724A1728076D82981658555D770848 /* MobileRTCAudioRawDataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCAudioRawDataHelper.h; path = MobileRTC.framework/Headers/MobileRTCAudioRawDataHelper.h; sourceTree = "<group>"; };
+		286E795ED7DBE711FD3A253FB4F9CB32 /* MobileRTCVideoCapabilityItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCVideoCapabilityItem.h; path = MobileRTC.framework/Headers/MobileRTCVideoCapabilityItem.h; sourceTree = "<group>"; };
+		2F9DFF33928BCE0FB291FCAC8F50D5B1 /* MobileRTCMeetingService+InMeeting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+InMeeting.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+InMeeting.h"; sourceTree = "<group>"; };
+		369FD3D1732D4D94B137DAEC8EDEF178 /* MobileRTCMeetingService+BO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+BO.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+BO.h"; sourceTree = "<group>"; };
+		3C29545AC4998B2D906DC6E86EE04EB2 /* Pods_ZoomSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZoomSample.framework; path = "Pods-ZoomSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF1375DAD53C79D645CA9C523F6CF7F /* MobileRTCQAItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCQAItem.h; path = MobileRTC.framework/Headers/MobileRTCQAItem.h; sourceTree = "<group>"; };
+		42B402A113C56D85B4129E881CEE6B81 /* MobileRTCRemoteControlService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCRemoteControlService.h; path = MobileRTC.framework/Headers/MobileRTCRemoteControlService.h; sourceTree = "<group>"; };
+		54AF9636C40FC158F8B171A4A618B3E8 /* MobileRTCVideoSourceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCVideoSourceHelper.h; path = MobileRTC.framework/Headers/MobileRTCVideoSourceHelper.h; sourceTree = "<group>"; };
+		56460100F5196EC7651871E233F73CEA /* ZoomSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZoomSDK.release.xcconfig; sourceTree = "<group>"; };
+		574743406A1CAE5160559F726352098F /* MobileRTCAuthService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCAuthService.h; path = MobileRTC.framework/Headers/MobileRTCAuthService.h; sourceTree = "<group>"; };
+		5A082761BB6F247A15968D5064F63EA9 /* Pods-ZoomSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZoomSample.modulemap"; sourceTree = "<group>"; };
+		60F4AB4B5CCDA92AB60EEFEFC2B61012 /* MobileRTCVideoRawData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCVideoRawData.h; path = MobileRTC.framework/Headers/MobileRTCVideoRawData.h; sourceTree = "<group>"; };
+		6B305F56297ACD6F1B89293444787E16 /* MobileRTCMeetingService+Video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+Video.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+Video.h"; sourceTree = "<group>"; };
+		6C9EF1339A61382758D2CBAC1CD0A0A0 /* MobileRTCInviteHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCInviteHelper.h; path = MobileRTC.framework/Headers/MobileRTCInviteHelper.h; sourceTree = "<group>"; };
+		6DA0568ED6DDB6918C7EE8DB6A2E9A5A /* MobileRTCMeetingChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCMeetingChat.h; path = MobileRTC.framework/Headers/MobileRTCMeetingChat.h; sourceTree = "<group>"; };
+		6F6B259B1FFC8EDFD94C5B9A26F64419 /* ZoomSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZoomSDK.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7748232905B0EF9004C4C245617FBD04 /* Pods-ZoomSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomSample-umbrella.h"; sourceTree = "<group>"; };
+		782E7030F28258DF30E5179FC4576BD3 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		7E01BE34B8C9E5377A2E8316126E37F0 /* MobileRTCRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCRenderer.h; path = MobileRTC.framework/Headers/MobileRTCRenderer.h; sourceTree = "<group>"; };
+		8133E8E566F67B0472108892598D14F9 /* MobileRTCConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCConstants.h; path = MobileRTC.framework/Headers/MobileRTCConstants.h; sourceTree = "<group>"; };
+		83DB4CD9AD2BAE39D55410BD04C03A22 /* MobileRTCMeetingService+AppShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+AppShare.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+AppShare.h"; sourceTree = "<group>"; };
+		867CAB4032D569D5BB1C84027F66999B /* Pods-ZoomSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8687DDD932B4B51CC97419E36E01FC07 /* Pods-ZoomSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomSample.release.xcconfig"; sourceTree = "<group>"; };
+		88E54A3E199D06F014BD611723F26732 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		92C50D0540BCA8BBE230DCFD66DD3047 /* Pods-ZoomSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		9663102FEB7E22FF445219995696CDFA /* MobileRTCMeetingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCMeetingService.h; path = MobileRTC.framework/Headers/MobileRTCMeetingService.h; sourceTree = "<group>"; };
+		976F6F273B4EADE3C19235EFD87B6080 /* MobileRTCMeetingService+Webinar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+Webinar.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+Webinar.h"; sourceTree = "<group>"; };
+		98C10969D219A5BBBD3F8BB4A1CFD2E0 /* MobileRTCMeetingService+Reaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+Reaction.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+Reaction.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A114E2DDA2F8B461142A226030C6DE37 /* MobileRTCE2EMeetingKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCE2EMeetingKey.h; path = MobileRTC.framework/Headers/MobileRTCE2EMeetingKey.h; sourceTree = "<group>"; };
+		A7C861CE927632935CDF028C42C53021 /* Pods-ZoomSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomSample-resources.sh"; sourceTree = "<group>"; };
+		A96B9EF8E086D0597693ACFFA965F512 /* MobileRTCAudioRawData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCAudioRawData.h; path = MobileRTC.framework/Headers/MobileRTCAudioRawData.h; sourceTree = "<group>"; };
+		AF952506D23E83D30017B78EF754F452 /* MobileRTCCallCountryCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCCallCountryCode.h; path = MobileRTC.framework/Headers/MobileRTCCallCountryCode.h; sourceTree = "<group>"; };
+		B65C1254A4F85F34DA4F94FE028D1A00 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
+		B7E6D799AFA86BFB0503394C928E8E60 /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
+		B938D19E10377C9C3A5B17F504C3190D /* MobileRTCResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MobileRTCResources.bundle; sourceTree = "<group>"; };
+		BAF6C34C04DEF4EC25C9DDCE5598B883 /* Pods-ZoomSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomSample-Info.plist"; sourceTree = "<group>"; };
+		BEB4AE1E55343397084DC1095BE3C0A7 /* MobileRTCMeetingService+Audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+Audio.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+Audio.h"; sourceTree = "<group>"; };
+		C42BA3CF0DC496488566782B0E36E732 /* MobileRTCVideoSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCVideoSender.h; path = MobileRTC.framework/Headers/MobileRTCVideoSender.h; sourceTree = "<group>"; };
+		C4BE90DFC258CBF2E96E108A26CBF38B /* MobileRTCMeetingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCMeetingDelegate.h; path = MobileRTC.framework/Headers/MobileRTCMeetingDelegate.h; sourceTree = "<group>"; };
+		C923652E6878E748A145416F36D1A1B5 /* MobileRTCMeetingActionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCMeetingActionItem.h; path = MobileRTC.framework/Headers/MobileRTCMeetingActionItem.h; sourceTree = "<group>"; };
+		CEB3993B7D10939B1C49FE2E1D514EA1 /* MobileRTCAnnotationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCAnnotationService.h; path = MobileRTC.framework/Headers/MobileRTCAnnotationService.h; sourceTree = "<group>"; };
+		D2E309944A31A65336A9781DD50F6FF5 /* MobileRTC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTC.h; path = MobileRTC.framework/Headers/MobileRTC.h; sourceTree = "<group>"; };
+		D30B815D86885BE6EE642708B6F97B8B /* MobileRTCMeetingService+Customize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+Customize.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+Customize.h"; sourceTree = "<group>"; };
+		D348009C48F1DBBEAFFCC0712060379A /* MobileRTCWaitingRoomService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCWaitingRoomService.h; path = MobileRTC.framework/Headers/MobileRTCWaitingRoomService.h; sourceTree = "<group>"; };
+		DB4D89D9C81CD5749A331CFE16B4151E /* Pods-ZoomSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomSample-dummy.m"; sourceTree = "<group>"; };
+		DDC7EB3C620819675AD99A6B20BAEFDA /* MobileRTCMeetingService+User.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+User.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+User.h"; sourceTree = "<group>"; };
+		E2420C8ADFA307FFD5F0ADBFEA207153 /* MobileRTCSMSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCSMSService.h; path = MobileRTC.framework/Headers/MobileRTCSMSService.h; sourceTree = "<group>"; };
+		E9CE8D4D2D024D401B307094855A464B /* MobileRTCPreProcessRawData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCPreProcessRawData.h; path = MobileRTC.framework/Headers/MobileRTCPreProcessRawData.h; sourceTree = "<group>"; };
+		EA020F0E754676200820480C66998A26 /* MobileRTCMeetingUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCMeetingUserInfo.h; path = MobileRTC.framework/Headers/MobileRTCMeetingUserInfo.h; sourceTree = "<group>"; };
+		EB3B9361A5A90BC4474A869558B28E7F /* Pods-ZoomSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomSample.debug.xcconfig"; sourceTree = "<group>"; };
+		ED18D243BCABE26FB8100B554ABE92FD /* Pods-ZoomSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomSample-frameworks.sh"; sourceTree = "<group>"; };
+		F34634897AAF44E900A11F7B30908E70 /* MobileRTCDialinCountry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCDialinCountry.h; path = MobileRTC.framework/Headers/MobileRTCDialinCountry.h; sourceTree = "<group>"; };
+		F358688F750E80101924EB4629ED7305 /* MobileRTCMeetingService+Chat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+Chat.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+Chat.h"; sourceTree = "<group>"; };
+		F47C184A965DFBF68E20B9FA4CEDE565 /* MobileRTCMeetingService+VirtualBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileRTCMeetingService+VirtualBackground.h"; path = "MobileRTC.framework/Headers/MobileRTCMeetingService+VirtualBackground.h"; sourceTree = "<group>"; };
+		F4D889E2CBB762C56E8427768D8DFFB8 /* MobileRTCMeetingSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileRTCMeetingSettings.h; path = MobileRTC.framework/Headers/MobileRTCMeetingSettings.h; sourceTree = "<group>"; };
+		FB4D0B4C1F8AB5BA54E66BA9C8C0F9EC /* MobileRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileRTC.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D23F869B31F655F3BD3ED7D39623E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D73F51454C1305B3109AB9D51D3999 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097CE1FA2AB1675FACDA5444E8475EB1 /* Pods-ZoomSample */ = {
+			isa = PBXGroup;
+			children = (
+				5A082761BB6F247A15968D5064F63EA9 /* Pods-ZoomSample.modulemap */,
+				867CAB4032D569D5BB1C84027F66999B /* Pods-ZoomSample-acknowledgements.markdown */,
+				92C50D0540BCA8BBE230DCFD66DD3047 /* Pods-ZoomSample-acknowledgements.plist */,
+				DB4D89D9C81CD5749A331CFE16B4151E /* Pods-ZoomSample-dummy.m */,
+				ED18D243BCABE26FB8100B554ABE92FD /* Pods-ZoomSample-frameworks.sh */,
+				BAF6C34C04DEF4EC25C9DDCE5598B883 /* Pods-ZoomSample-Info.plist */,
+				A7C861CE927632935CDF028C42C53021 /* Pods-ZoomSample-resources.sh */,
+				7748232905B0EF9004C4C245617FBD04 /* Pods-ZoomSample-umbrella.h */,
+				EB3B9361A5A90BC4474A869558B28E7F /* Pods-ZoomSample.debug.xcconfig */,
+				8687DDD932B4B51CC97419E36E01FC07 /* Pods-ZoomSample.release.xcconfig */,
+			);
+			name = "Pods-ZoomSample";
+			path = "Target Support Files/Pods-ZoomSample";
+			sourceTree = "<group>";
+		};
+		0E21D8CA78207D6B69F43682A46CC51A /* ZoomSDK */ = {
+			isa = PBXGroup;
+			children = (
+				51DD07B4702EEE43ED1383160B96ED00 /* Core */,
+				35A4D100C3933E15627BED8BCB8D77CC /* Support Files */,
+			);
+			name = ZoomSDK;
+			path = ZoomSDK;
+			sourceTree = "<group>";
+		};
+		332D0890F2241CEEC9350A4C3AF850E0 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				E2C978979F3A29AF10E0D7BA4AEF9C10 /* Support Files */,
+			);
+			name = SwiftGen;
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		35A4D100C3933E15627BED8BCB8D77CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F6B259B1FFC8EDFD94C5B9A26F64419 /* ZoomSDK.debug.xcconfig */,
+				56460100F5196EC7651871E233F73CEA /* ZoomSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZoomSDK";
+			sourceTree = "<group>";
+		};
+		51DD07B4702EEE43ED1383160B96ED00 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D2E309944A31A65336A9781DD50F6FF5 /* MobileRTC.h */,
+				CEB3993B7D10939B1C49FE2E1D514EA1 /* MobileRTCAnnotationService.h */,
+				A96B9EF8E086D0597693ACFFA965F512 /* MobileRTCAudioRawData.h */,
+				27724A1728076D82981658555D770848 /* MobileRTCAudioRawDataHelper.h */,
+				574743406A1CAE5160559F726352098F /* MobileRTCAuthService.h */,
+				1A2EEB6C6EA00854DDE483EB15B55453 /* MobileRTCBORole.h */,
+				AF952506D23E83D30017B78EF754F452 /* MobileRTCCallCountryCode.h */,
+				8133E8E566F67B0472108892598D14F9 /* MobileRTCConstants.h */,
+				F34634897AAF44E900A11F7B30908E70 /* MobileRTCDialinCountry.h */,
+				1841C56414B9657FA9A378D45E33BD00 /* MobileRTCDirectShareService.h */,
+				A114E2DDA2F8B461142A226030C6DE37 /* MobileRTCE2EMeetingKey.h */,
+				6C9EF1339A61382758D2CBAC1CD0A0A0 /* MobileRTCInviteHelper.h */,
+				C923652E6878E748A145416F36D1A1B5 /* MobileRTCMeetingActionItem.h */,
+				6DA0568ED6DDB6918C7EE8DB6A2E9A5A /* MobileRTCMeetingChat.h */,
+				C4BE90DFC258CBF2E96E108A26CBF38B /* MobileRTCMeetingDelegate.h */,
+				9663102FEB7E22FF445219995696CDFA /* MobileRTCMeetingService.h */,
+				83DB4CD9AD2BAE39D55410BD04C03A22 /* MobileRTCMeetingService+AppShare.h */,
+				BEB4AE1E55343397084DC1095BE3C0A7 /* MobileRTCMeetingService+Audio.h */,
+				369FD3D1732D4D94B137DAEC8EDEF178 /* MobileRTCMeetingService+BO.h */,
+				F358688F750E80101924EB4629ED7305 /* MobileRTCMeetingService+Chat.h */,
+				D30B815D86885BE6EE642708B6F97B8B /* MobileRTCMeetingService+Customize.h */,
+				2F9DFF33928BCE0FB291FCAC8F50D5B1 /* MobileRTCMeetingService+InMeeting.h */,
+				1B45FF9D0DDB6C2D1EA0033BB7C224FE /* MobileRTCMeetingService+Interpretation.h */,
+				98C10969D219A5BBBD3F8BB4A1CFD2E0 /* MobileRTCMeetingService+Reaction.h */,
+				DDC7EB3C620819675AD99A6B20BAEFDA /* MobileRTCMeetingService+User.h */,
+				6B305F56297ACD6F1B89293444787E16 /* MobileRTCMeetingService+Video.h */,
+				F47C184A965DFBF68E20B9FA4CEDE565 /* MobileRTCMeetingService+VirtualBackground.h */,
+				976F6F273B4EADE3C19235EFD87B6080 /* MobileRTCMeetingService+Webinar.h */,
+				F4D889E2CBB762C56E8427768D8DFFB8 /* MobileRTCMeetingSettings.h */,
+				EA020F0E754676200820480C66998A26 /* MobileRTCMeetingUserInfo.h */,
+				080ECD58800DDB1C0FAA02264F812DF3 /* MobileRTCPremeetingService.h */,
+				E9CE8D4D2D024D401B307094855A464B /* MobileRTCPreProcessRawData.h */,
+				3EF1375DAD53C79D645CA9C523F6CF7F /* MobileRTCQAItem.h */,
+				42B402A113C56D85B4129E881CEE6B81 /* MobileRTCRemoteControlService.h */,
+				7E01BE34B8C9E5377A2E8316126E37F0 /* MobileRTCRenderer.h */,
+				1F1240C5D671C9D994EDB3AC4B80091D /* MobileRTCRoomDevice.h */,
+				E2420C8ADFA307FFD5F0ADBFEA207153 /* MobileRTCSMSService.h */,
+				286E795ED7DBE711FD3A253FB4F9CB32 /* MobileRTCVideoCapabilityItem.h */,
+				60F4AB4B5CCDA92AB60EEFEFC2B61012 /* MobileRTCVideoRawData.h */,
+				C42BA3CF0DC496488566782B0E36E732 /* MobileRTCVideoSender.h */,
+				54AF9636C40FC158F8B171A4A618B3E8 /* MobileRTCVideoSourceHelper.h */,
+				0DCBBD22371A2B7470F5B75848D05D73 /* MobileRTCVideoView.h */,
+				D348009C48F1DBBEAFFCC0712060379A /* MobileRTCWaitingRoomService.h */,
+				EF2E3A23D147EFA3B64716CD87FD2085 /* Frameworks */,
+				87D67C8CD751AF980B2D2E8127082569 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C4B612476E72EB82CAC586C68276C75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				097CE1FA2AB1675FACDA5444E8475EB1 /* Pods-ZoomSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		87D67C8CD751AF980B2D2E8127082569 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B938D19E10377C9C3A5B17F504C3190D /* MobileRTCResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		91D10B0BEBB90C2F5E750377AC309CE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				332D0890F2241CEEC9350A4C3AF850E0 /* SwiftGen */,
+				A92CFDA0AC81EEE6C2CBD8FE7E4A3C38 /* SwiftLint */,
+				0E21D8CA78207D6B69F43682A46CC51A /* ZoomSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9980EB6F0871A482AE505A01E5561243 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				782E7030F28258DF30E5179FC4576BD3 /* SwiftLint.debug.xcconfig */,
+				88E54A3E199D06F014BD611723F26732 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		A92CFDA0AC81EEE6C2CBD8FE7E4A3C38 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				9980EB6F0871A482AE505A01E5561243 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				91D10B0BEBB90C2F5E750377AC309CE2 /* Pods */,
+				F9D540D077C5088B167ED333711BC566 /* Products */,
+				6C4B612476E72EB82CAC586C68276C75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C978979F3A29AF10E0D7BA4AEF9C10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B65C1254A4F85F34DA4F94FE028D1A00 /* SwiftGen.debug.xcconfig */,
+				B7E6D799AFA86BFB0503394C928E8E60 /* SwiftGen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGen";
+			sourceTree = "<group>";
+		};
+		EF2E3A23D147EFA3B64716CD87FD2085 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB4D0B4C1F8AB5BA54E66BA9C8C0F9EC /* MobileRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D540D077C5088B167ED333711BC566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C29545AC4998B2D906DC6E86EE04EB2 /* Pods_ZoomSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FE69EEA1137E690D2953F6870D2E8AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCAC083E900762AB5B3A8F8E586A1AD /* Pods-ZoomSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE908E77586514287F5F2EB3BDC06632 /* Pods-ZoomSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D68C1792D0B0668B64A8B343D51E1E /* Build configuration list for PBXNativeTarget "Pods-ZoomSample" */;
+			buildPhases = (
+				6FE69EEA1137E690D2953F6870D2E8AA /* Headers */,
+				77FB4C8D1B4F3DA29535693E66462FB8 /* Sources */,
+				4D23F869B31F655F3BD3ED7D39623E9B /* Frameworks */,
+				D41ED6CC5FA4EC42336B8E985FF877F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D5A6DEE47981CC697C31175B9118636 /* PBXTargetDependency */,
+				01E1E0523B4780872A10EF60D57A6D94 /* PBXTargetDependency */,
+				F4405E4FEA9128A7A6C29E4766A7C1A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomSample";
+			productName = "Pods-ZoomSample";
+			productReference = 3C29545AC4998B2D906DC6E86EE04EB2 /* Pods_ZoomSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F9D540D077C5088B167ED333711BC566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE908E77586514287F5F2EB3BDC06632 /* Pods-ZoomSample */,
+				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				B9CFD89916A72E9A429292FCAAAC8955 /* ZoomSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41ED6CC5FA4EC42336B8E985FF877F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77FB4C8D1B4F3DA29535693E66462FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2D892C9D5D2B03A2FE022EDCB13DB7 /* Pods-ZoomSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E1E0523B4780872A10EF60D57A6D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 906E9CC00AF8B4F8362BD1E0176A064F /* PBXContainerItemProxy */;
+		};
+		8D5A6DEE47981CC697C31175B9118636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = 5353C4207D4386573C6D0B8D170E7254 /* PBXContainerItemProxy */;
+		};
+		F4405E4FEA9128A7A6C29E4766A7C1A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZoomSDK;
+			target = B9CFD89916A72E9A429292FCAAAC8955 /* ZoomSDK */;
+			targetProxy = 936C60A2B9BBA1B603E698EA54B666ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2202230BF25CAB2FDC609A71D79055BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65C1254A4F85F34DA4F94FE028D1A00 /* SwiftGen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		476CC471142190D372C2120FF35A2002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6B259B1FFC8EDFD94C5B9A26F64419 /* ZoomSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A707C5B2BF75741E81CA7E0D5F7EF402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56460100F5196EC7651871E233F73CEA /* ZoomSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E54A3E199D06F014BD611723F26732 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3B4AB84D0F77E437676BAFB9C2086C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E6D799AFA86BFB0503394C928E8E60 /* SwiftGen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D98EE255AEF2473C249A91C75C6203C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8687DDD932B4B51CC97419E36E01FC07 /* Pods-ZoomSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomSample/Pods-ZoomSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomSample/Pods-ZoomSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782E7030F28258DF30E5179FC4576BD3 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A82D9700BB6596C5FD2944F05CC1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3B9361A5A90BC4474A869558B28E7F /* Pods-ZoomSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomSample/Pods-ZoomSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomSample/Pods-ZoomSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B7091ED8E6375EC06A1821403EF8EEC /* Build configuration list for PBXAggregateTarget "ZoomSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476CC471142190D372C2120FF35A2002 /* Debug */,
+				A707C5B2BF75741E81CA7E0D5F7EF402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D68C1792D0B0668B64A8B343D51E1E /* Build configuration list for PBXNativeTarget "Pods-ZoomSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A82D9700BB6596C5FD2944F05CC1F7 /* Debug */,
+				D98EE255AEF2473C249A91C75C6203C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2202230BF25CAB2FDC609A71D79055BB /* Debug */,
+				CF3B4AB84D0F77E437676BAFB9C2086C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

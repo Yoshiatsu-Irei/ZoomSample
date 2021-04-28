@@ -1,0 +1,6 @@
+xcassets:
+  inputs:
+     - ZoomSample/Resources/Assets.xcassets
+  outputs:
+    templateName: swift4
+    output: ZoomSample/Generated/Assets.swift
