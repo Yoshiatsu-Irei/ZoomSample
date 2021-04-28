@@ -1,0 +1,47 @@
+{
+  "name": "ZoomSDK",
+  "version": "5.5.12509.0401",
+  "summary": "Original framework for Zoom.us service",
+  "homepage": "https://github.com/zoom/zoom-sdk-ios",
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "Pavel Smelovsky": "pavel.smelovsky@gmail.com"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/pavelsmelovsky/ZoomSDK.git",
+    "tag": "v5.5.12509.0401"
+  },
+  "libraries": [
+    "z",
+    "c++",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "VideoToolbox",
+    "CoreBluetooth",
+    "ReplayKit",
+    "CoreMotion"
+  ],
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "ios": {
+        "source_files": "MobileRTC.framework/Headers/**/*.{h,m}",
+        "public_header_files": "MobileRTC.framework/Headers/**/*.{h,m}",
+        "vendored_frameworks": "MobileRTC.framework",
+        "resources": "MobileRTCResources.bundle"
+      }
+    }
+  ],
+  "swift_version": "5.0"
+}
